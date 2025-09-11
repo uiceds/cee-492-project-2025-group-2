@@ -14,11 +14,11 @@
       email: "leslyr2@illinois.edu",
     ),
     (
-      name: "Author 2",
-      department: [Department 2],
+      name: "Qing Ray Wong",
+      department: [CEE],
       organization: [University of Illinois Urbana-Champaign],
       location: [Urbana, IL, USA],
-      email: "author2@illinois.edu",
+      email: "qrwong2@illinois.edu",
     ),
     (
       name: "Patrick Alonso",
