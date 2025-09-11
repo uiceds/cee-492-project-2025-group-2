@@ -20,6 +20,13 @@
       location: [Urbana, IL, USA],
       email: "author2@illinois.edu",
     ),
+    (
+      name: "Patrick Alonso",
+      department: [CEE],
+      organization: [University of Illinois Urbana-Champaign],
+      location: [Urbana, IL, USA],
+      email: "palonso2@illinois.edu",
+    ),
   ),
   index-terms: ("Optional", "Keywords", "Here"),
   bibliography: bibliography("refs.bib"),
