@@ -27,6 +27,14 @@
       location: [Urbana, IL, USA],
       email: "palonso2@illinois.edu",
     ),
+    (
+      name: "Priya Podder",
+      department: [CEE],
+      organization: [University of Illinois Urbana-Champaign],
+      location: [Urbana, IL, USA],
+      email: "dpodder2@illinois.edu",
+    )
+    ),
   ),
   index-terms: ("Optional", "Keywords", "Here"),
   bibliography: bibliography("refs.bib"),
