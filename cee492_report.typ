@@ -3,8 +3,7 @@
 #show: ieee.with(
   title: [From Data to Degrees - Using Machine Learning Models to Predict Tomorrow's Temperatures],
   abstract: [
-    This is where you put your abstract. Abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract abstract. one more sentence.
-  ],
+  The dataset used for this project is titled "Climate Change: Earth Surface Temperature Data," compiled by Berkeley Earth. The link for this dataset is: https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data?resource=download. It contains five CSV files in a zip file, including global temperatures by state, major city, country, and city. Due to the extensive dates covered, starting from 1750 to 2013, the data allows for analysis of global climate change.  ],
   authors: (
     (
       name: "Lesly Rodriguez",
