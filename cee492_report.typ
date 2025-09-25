@@ -33,7 +33,5 @@
       location: [Urbana, IL, USA],
       email: "dpodder2@illinois.edu",
     )
-  ),
-  index-terms: ("Optional", "Keywords", "Here"),
-  bibliography: bibliography("refs.bib"),
+  )
 )
