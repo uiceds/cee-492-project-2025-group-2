@@ -35,8 +35,6 @@
       email: "dpodder2@illinois.edu",
     )
   ),
-  index-terms: ("Optional", "Keywords", "Here"),
-  bibliography: bibliography("refs.bib"),
 )
 
 = Exploratory Data Analysis 
