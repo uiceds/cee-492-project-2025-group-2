@@ -39,7 +39,7 @@
 
 = Exploratory Data Analysis 
 
-
+Initial analysis of our five existing datasets led us to narrow our scope to city's in the United States of America. We started by filtering through the "city" dataset for cities only within the United States.   
 
 == First Subsection
 
