@@ -59,6 +59,8 @@ You can make sub, sub-sub, and sub-sub-sub sections by adding `=` signs in front
 
 = Predictive Modeling
 
+The next phase of this project will focus on developing a predictive model to forecast future average temperatures across the 48 U.S. states. The model will use machine learning techniques trained on historical temperature data from 1950 to 2022 to identify patterns, trends, and seasonal variations in climate behavior.
+
 You can add tables using the `#table` command. Here is an example table:
 
 #figure(
