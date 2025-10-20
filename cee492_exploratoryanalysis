@@ -42,7 +42,7 @@ Climate change is one of the most pressing global issues in 21st century. Rising
 
 = Exploratory Data Analysis 
 
-Our dataset provides us with the average temperatures of each state per month by year spanning from January 1950 to August 2022. In this file, we are also provided with the centroid longitude and centroid latitude to ultimately assist with the plotting of an animated heat map of the United States of America. 
+Our dataset provides us with the average temperatures of each state per month by year spanning from January 1950 to August 2022. In this file, we are also provided with the centroid longitude and centroid latitude to ultimately assist with the plotting of an animated heat map of the United States of America. With our data, we want to prove the rate of temperature increase from 1950 to 2022 varies geographically, with higher rates observed in northern and inland states compared to coastal states. This spatial disparity in warming aligns with global research on heatwave distribution, which found that from "2,562 heatwave events identified worldwide, 1,176 occurred over land while only 596 occurred in coastal regions" (Key Laboratory for Semi-Arid Climate Change, School of Atmospheric Sciences, Lanzhou University). The study suggests that inland areas experience more frequent and intense heat events due to weaker oceanic moderation and greater surface heat retention—factors that likely contribute to the accelerated warming trends seen in the temperature change in the interior and northern parts of the United States.
 
 == First Subsection
 
@@ -59,7 +59,7 @@ You can make sub, sub-sub, and sub-sub-sub sections by adding `=` signs in front
 
 = Predictive Modeling
 
-The next phase of this project will focus on developing a predictive model to forecast future average temperatures across the 48 U.S. states. The model will use machine learning techniques trained on historical temperature data from 1950 to 2022 to identify patterns, trends, and seasonal variations in climate behavior.
+The next phase of this project will focus on developing a predictive model to forecast future average temperatures across the 48 U.S. states. The model will use machine learning techniques trained on historical temperature data from 1950 to 2022 to identify patterns, trends, and seasonal variations in climate behavior. We will use this deliverable to confirm or deny our initial hypothesis of inland states having a greater temperature disparity than coastal regions due to aquatic regulation.
 
 You can add tables using the `#table` command. Here is an example table:
 
