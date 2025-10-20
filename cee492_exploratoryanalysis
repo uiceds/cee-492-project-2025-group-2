@@ -42,7 +42,7 @@ Climate change is one of the most pressing global issues in 21st century. Rising
 
 = Exploratory Data Analysis 
 
-Initial analysis of our five existing datasets led us to narrow our scope to city's in the United States of America. We started by filtering through the "city" dataset for cities only within the United States.   
+Our dataset provides us with the average temperatures of each state per month by year spanning from January 1950 to August 2022. In this file, we are also provided with the centroid longitude and centroid latitude to ultimately assist with the plotting of an animated heat map of the United States of America. 
 
 == First Subsection
 
