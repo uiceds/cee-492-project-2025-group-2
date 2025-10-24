@@ -44,47 +44,27 @@ Climate change is one of the most pressing global issues in 21st century. Rising
 
 Our dataset provides us with the average temperatures of each state per month by year spanning from January 1950 to August 2022. In this file, we are also provided with the centroid longitude and centroid latitude to ultimately assist with the plotting of an animated heat map of the United States of America. With our data, we want to prove the rate of temperature increase from 1950 to 2022 varies geographically, with higher rates observed in northern and inland states compared to coastal states. This spatial disparity in warming aligns with global research on heatwave distribution, which found that from "2,562 heatwave events identified worldwide, 1,176 occurred over land while only 596 occurred in coastal regions" (Key Laboratory for Semi-Arid Climate Change, School of Atmospheric Sciences, Lanzhou University). The study suggests that inland areas experience more frequent and intense heat events due to weaker oceanic moderation and greater surface heat retention—factors that likely contribute to the accelerated warming trends seen in the temperature change in the interior and northern parts of the United States.
 
-== First Subsection
-
-To add figures to your report, save the image file in the `figures` folder and use the `#figure` command as shown below to include it in your document. You can specify the width of the image and add a caption. Then you can reference the figure like this: @proofread.
+== EDA Figures
 
 #figure(
   image("figures/illinois_monthly_temp_trends.png", width: 80%),
   caption: [Figure showing changes in average temperature by month over time in Illinois.],
-) <proofread>
+) <illinois_monthly_tdata>
 
 #figure(
   image("figures/illinois_linear_temp_trends.png", width: 80%),
   caption: [Bars represent slope of linear regression line fit to average temperature by month in Illinois. All bars as positive indicating increasing temperatures.],
-) <proofread>
+) <Illinois_monthly_linear_ttrends>
 
 #figure(
   image("figures/state_monthly_temp_trends.png", width: 80%),
   caption: [Plots by state depicting changes in average temperature by month over time.],
-) <proofread>
-
-=== First Subsubsection
-
-You can make sub, sub-sub, and sub-sub-sub sections by adding `=` signs in front of the section title. There needs to be a space between the last `=` sign and the title text.
+) <all_state_monthly_tdata>
 
 = Predictive Modeling
 
 As the next phase of our analysis, we will develop an animated heat map to visually demonstrate how average temperatures have evolved over time across the United States. This visualization will integrate the monthly temperature data from 1950 onward, allowing changes through the years to be displayed dynamically for each state. By illustrating both regional and time-based variations, the animated map will provide a clearer representation of long-term warming trends and enhance our understanding of differences in temperature change patterns across the country.
 
 The next phase of this project will focus on developing a predictive model to forecast future average temperatures across the 48 U.S. states. The model will use machine learning techniques trained on historical temperature data from 1950 to 2022 to identify patterns, trends, and seasonal variations in climate behavior. We will use this deliverable to confirm or deny our initial hypothesis of inland states having a greater temperature disparity than coastal regions due to aquatic regulation.
-
-You can add tables using the `#table` command. Here is an example table:
-
-#figure(
-  caption: [Example Table],
-  table(
-    columns: (auto, auto, auto),
-    table.header([*Column 1*], [*Column 2*], [*Column 3*]),
-    "Row 1", "Data 1", [Data 2],
-    image("figures/proof-read.png", width: 40%), "Data 3", "Data 4",
-  ),
-) <table-example>
-
-You can reference the table like this: @table-example.
 
 
