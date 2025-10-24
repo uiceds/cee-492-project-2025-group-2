@@ -7,7 +7,7 @@
 
 Climate change is one of the most pressing global issues in 21st century. Rising of temperature, shifting of weather patterns and increasing of extreme events are no longer distant concerns but immediate threats to ecosystems and human well-being. In this project, we aim to conduct climate research by using historical temperature data and machine learning techniques to generate accurate temperature forecasts. Such predictions are not only crucial for advancing climate science but also have practical applications in areas such as energy sustainability, infrastructure planning, and public health. Once a clean and pre-processed dataset has been obtained this study aims to employ a predictive machine learning model(s) to predict the behavior of future global temperatures. The dataset used in this study will be parsed into training, validation, and testing datasets. The model will learn patterns and trends over time and in turn be able to predict future average temperatures based on past observations. Capturing features such as seasonal cycles, weather patterns, and relevant trends and anomalies will be integral to the accuracy of our model. The hope is that this project will serve as a baseline for climatologists and other like-minded researchers interested in understanding and predicting the impacts of the Anthropocene on our climate.
 ],
-  ],
+),
   authors: (
     (
       name: "Lesly Rodriguez",
