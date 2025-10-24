@@ -64,6 +64,4 @@ Our dataset provides us with the average temperatures of each state per month by
 
 As the next phase of our analysis, we will develop an animated heat map to visually demonstrate how average temperatures have evolved over time across the United States. This visualization will integrate the monthly temperature data from 1950 onward, allowing changes through the years to be displayed dynamically for each state. By illustrating both regional and time-based variations, the animated map will provide a clearer representation of long-term warming trends and enhance our understanding of differences in temperature change patterns across the country.
 
-The next phase of this project will focus on developing a predictive model to forecast future average temperatures across the 48 U.S. states. The model will use machine learning techniques trained on historical temperature data from 1950 to 2022 to identify patterns, trends, and seasonal variations in climate behavior. We will use this deliverable to confirm or deny our initial hypothesis of inland states having a greater temperature disparity than coastal regions due to aquatic regulation.
-
 
