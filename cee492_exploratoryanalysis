@@ -49,8 +49,18 @@ Our dataset provides us with the average temperatures of each state per month by
 To add figures to your report, save the image file in the `figures` folder and use the `#figure` command as shown below to include it in your document. You can specify the width of the image and add a caption. Then you can reference the figure like this: @proofread.
 
 #figure(
-  image("figures/proof-read.png", width: 80%),
-  caption: [A humble request. (Copyright: University of the Fraser Valley.)],
+  image("figures/illinois_monthly_temp_trends.png", width: 80%),
+  caption: [Figure showing changes in average temperature by month over time in Illinois.],
+) <proofread>
+
+#figure(
+  image("figures/illinois_linear_temp_trends.png", width: 80%),
+  caption: [Bars represent slope of linear regression line fit to average temperature by month in Illinois. All bars as positive indicating increasing temperatures.],
+) <proofread>
+
+#figure(
+  image("figures/state_monthly_temp_trends.png", width: 80%),
+  caption: [Plots by state depicting changes in average temperature by month over time.],
 ) <proofread>
 
 === First Subsubsection
