@@ -56,32 +56,32 @@ Our dataset provides us with the average temperatures of each state per month by
 ) <Illinois_monthly_linear_ttrends>
 
 #figure(
-  image("figures/state_montly_temp_trends_1.png", width: 80%),
+  image("figures/state_montly_temp_trends_1.png", width: 70%),
   caption: [Plots by states Alabama, Arizona, Arkansas, California, Colorado, Connecticut, Delaware, Florida depicting changes in average temperature by month over time.],
 ) <all_state_monthly_tdata>
 
 #figure(
-  image("figures/state_montly_temp_trends_2.png", width: 80%),
+  image("figures/state_montly_temp_trends_2.png", width: 70%),
   caption: [Plots by states Georgia, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky and Louisiana depicting changes in average temperature by month over time.],
 ) <all_state_monthly_tdata>
 
 #figure(
-  image("figures/state_montly_temp_trends_3.png", width: 80%),
+  image("figures/state_montly_temp_trends_3.png", width: 70%),
   caption: [Plots by states Maine, Maryland, Massachusetts, Michigan, Minnesota, Mississippi, Missouri, Montana depicting changes in average temperature by month over time.],
 ) <all_state_monthly_tdata>
 
 #figure(
-  image("figures/state_montly_temp_trends_4.png", width: 80%),
+  image("figures/state_montly_temp_trends_4.png", width: 70%),
   caption: [Plots by states Nebraska, Nevada, New Hampshire, New Jersey, New Mexico, New York, North Carolina, North Dakota depicting changes in average temperature by month over time.],
 ) <all_state_monthly_tdata>
 
 #figure(
-  image("figures/state_montly_temp_trends_5.png", width: 80%),
+  image("figures/state_montly_temp_trends_5.png", width: 70%),
   caption: [Plots by states Ohio, Oklahoma, Oregon, Pennsylvania, Rhode Island, South Carolina, South Dakota, Tennessee depicting changes in average temperature by month over time.],
 ) <all_state_monthly_tdata>
 
 #figure(
-  image("figures/state_montly_temp_trends_6.png", width: 80%),
+  image("figures/state_montly_temp_trends_6.png", width: 70%),
   caption: [Plots by states Texas, Utah, Vermont, Virginia, Washington, West Virginia, Wisconsin, Wyoming depicting changes in average temperature by month over time.],
 ) <all_state_monthly_tdata>
 
