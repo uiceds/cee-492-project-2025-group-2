@@ -52,7 +52,7 @@ Our dataset provides us with the average temperatures of each state per month by
 
 #figure(
   image("figures/illinois_linear_temp_trends.png", width: 80%),
-  caption: [Bars represent slope of linear regression line fit to average temperature by month in Illinois. All bars as positive indicating increasing temperatures.],
+  caption: [Bars represent slope of linear regression line fit to average temperature by month in Illinois. All bars are positive indicating increasing temperatures.],
 ) <Illinois_monthly_linear_ttrends>
 
 #figure(
