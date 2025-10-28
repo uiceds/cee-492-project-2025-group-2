@@ -56,11 +56,6 @@ Our dataset provides us with the average temperatures of each state per month by
 ) <Illinois_monthly_linear_ttrends>
 
 #figure(
-  image("figures/state_monthly_temp_trends.png", width: 80%),
-  caption: [Plots by states 1 depicting changes in average temperature by month over time.],
-) <all_state_monthly_tdata>
-
-#figure(
   image("figures/state_monthly_temp_trends_1.png", width: 80%),
   caption: [Plots by states Alabama, Arizona, Arkansas, California, Colorado, Connecticut, Delaware, Florida depicting changes in average temperature by month over time.],
 ) <all_state_monthly_tdata>
