@@ -98,7 +98,7 @@ The visual analysis of these temperature graphs strongly supports the initial hy
 As the next phase of our analysis, we developed a model that predicts how average temperatures evolve over time across the United States. The final output of this model will be an animated heat map that displays the monthly temperature data from 1950 onward, allowing changes through the years to be displayed dynamically for each state. By illustrating both regional and time-based variations, the animated map will provide a clearer representation of long-term warming trends and enhance our understanding of differences in temperature change patterns across the country.
 
 #figure(
-  image("albama_jan.png", width: 70%),
+  image("alabama_jan.png", width: 70%),
   caption: [This predicted model displays the Actual vs Predicted average temperature in Alabama for the month of January.],
 ) <all_state_monthly_tdata>
 
