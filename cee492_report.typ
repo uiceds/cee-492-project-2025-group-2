@@ -99,7 +99,7 @@ As the next phase of our analysis, we developed a Long-Short Term Memory (LSTM) 
 
 #figure(
   image("figures/alabama_jan.png", width: 100%),
-  caption: [This predicted model displays the Actual vs Predicted average temperature in Alabama for the month of January.],
+  caption: [This predicted model displays the Actual (dotted line) vs Predicted (crossed line) average temperature in Alabama for the months of January and February.],
 ) <all_state_monthly_tdata>
 
 During the development of the predictive model for forecasting future temperatures, several issues were observed that affected the reliability of the results. Most notably, the model frequently produced predicted temperatures that were significantly higher than the historical trend, suggesting that the model was unable to properly learn the underlying seasonal and long-term climate patterns. Additionally, the model produced multiple predicted values for the same month, rather than a single consistent forecast, suggesting inconsistencies in the feature construction, time indexing, or forecasting loop. As a result, the model was unable to produce stable and accurate temperature predictions for the upcoming year, highlighting the limitations of the chosen modeling approach and the need for more robust techniques or improved data preprocessing. For the upcoming phase of this project, we will focus on refining and correcting the predictive model to address the identified issues.
