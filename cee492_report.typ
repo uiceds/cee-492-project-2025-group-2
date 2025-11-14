@@ -98,7 +98,7 @@ The visual analysis of these temperature graphs strongly supports the initial hy
 As the next phase of our analysis, we developed a Long-Short Term Memory (LSTM) machine learning model that is able to forecast how average temperatures evolve over time across the United States. LSTMs work as a special type of Recurrent Neural Network (RNN) that is able to remember information for long periods of time where gradients of a vanilla RNN tend to vanish over long forecast periods. The model input will be a feature vector containing previous monthly average temperature data per state in the dataset and the model will output predicted average monthly temperatures based on historical data. The final output of this model will be. Predictions in spatio-temporal temperature variations may yield valuable insights into how the Earth's temperatures are changing as a result of anthropogenic induced climate change.
 
 #figure(
-  image("figures/alabama_jan.png", width: 70%),
+  image("figures/alabama_jan.png", width: 100%),
   caption: [This predicted model displays the Actual vs Predicted average temperature in Alabama for the month of January.],
 ) <all_state_monthly_tdata>
 
