@@ -119,6 +119,10 @@ During the development of the predictive model for forecasting future temperatur
   caption: [This forecasting model displays the Actual (blue dotted line) vs Predicted (yellow crossed line) average temperature in California for future 12 months, September to August.],
 ) <all_state_monthly_tdata>
 
+#figure(
+  image("figures/ny_loss.png", width: 100%),
+  caption: [LOSS GRAPH BLAH BLAH],
+) <all_state_monthly_tdata>
 
 To refine and correct our model, we decided the best approach was to limit the dataset to just four states to conclusively support or deny our initial hypothesis. This significantly improved the quality of our training loop by giving the LSTM more clear objectives to optimize as opposed to data from all 50 US states. Additionally, the LSTM forecasted 12 months of predicted mean temperatures from the last 24 months in each dataset (Sept. 2018 - Aug. 2020) of each respective state to let the model learn from recent, metereological relative data. We selected New York to represent the east coastal region, Illinois to represent the central interior states, Texas to represent Gulf coastal region, and California to represent west coast temperature patterns.  
 
