@@ -104,6 +104,22 @@ As the next phase of our analysis, we developed a Long-Short Term Memory (LSTM) 
 
 During the development of the predictive model for forecasting future temperatures, several issues were observed that affected the reliability of the results. Most notably, the model frequently produced predicted temperatures that were significantly higher than the historical trend, suggesting that the model was unable to properly learn the underlying seasonal and long-term climate patterns. Additionally, the model produced multiple predicted values for the same month, rather than a single consistent forecast, suggesting inconsistencies in the feature construction, time indexing, or forecasting loop. As a result, the model was unable to produce stable and accurate temperature predictions for the upcoming year, highlighting the limitations of the chosen modeling approach and the need for more robust techniques or improved data preprocessing. 
 
+#figure(
+  image("figures/texas_year.png", width: 100%),
+  caption: [This forecasting model displays the Actual (blue dotted line) vs Predicted (yellow crossed line) average temperature in Texas for future 12 months, September to August.],
+) <all_state_monthly_tdata>
+
+#figure(
+  image("figures/ny_year.png", width: 100%),
+  caption: [This forecasting model displays the Actual (blue dotted line) vs Predicted (yellow crossed line) average temperature in New York for future 12 months, September to August.],
+) <all_state_monthly_tdata>
+
+#figure(
+  image("figures/cali_year.png", width: 100%),
+  caption: [This forecasting model displays the Actual (blue dotted line) vs Predicted (yellow crossed line) average temperature in California for future 12 months, September to August.],
+) <all_state_monthly_tdata>
+
+
 To refine and correct our model, we decided the best approach was to limit the dataset to just four states to conclusively support or deny our initial hypothesis. This significantly improved the quality of our training loop by giving the LSTM more clear objectives to optimize as opposed to data from all 50 US states. Additionally, the LSTM forecasted 12 months of predicted mean temperatures from the last 24 months in each dataset (Sept. 2018 - Aug. 2020) of each respective state to let the model learn from recent, metereological relative data. We selected New York to represent the east coastal region, Illinois to represent the central interior states, Texas to represent Gulf coastal region, and California to represent west coast temperature patterns.  
 
 = Discussion
