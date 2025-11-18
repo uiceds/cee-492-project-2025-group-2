@@ -2,11 +2,7 @@
 
 #show: ieee.with(
   title: [From Data to Degrees - Using Machine Learning Models to Predict Tomorrow's Temperatures in the United States],
-  abstract: [
-   The dataset used for this project is titled "Average Monthly Temperature by US State," compiled by the National Centers for Environmental Information. The link for this dataset is: https://www.kaggle.com/datasets/justinrwong/average-monthly-temperature-by-us-state. It contains one CSV file that has average temperatures for 48 states (excluding Hawaii and Alaska) by month. Due to the extensive dates covered, starting from 1950 to 2022, the data allows for analysis of climate change within the United States. The temperature was measured in degrees Fahrenheit and the centroid latitude and longitude were also provided for each state. 
 
-Climate change is one of the most pressing global issues in 21st century. Rising of temperature, shifting of weather patterns and increasing of extreme events are no longer distant concerns but immediate threats to ecosystems and human well-being. In this project, we aim to conduct climate research by using historical temperature data and machine learning techniques to generate accurate temperature forecasts. Such predictions are not only crucial for advancing climate science but also have practical applications in areas such as energy sustainability, infrastructure planning, and public health. To allow comparability of temperature fluctuations across different regions, the dataset was reduced to focus on four states: California, Illinois, New York, and Texas, representing coastal and inland regions. Using this data, a Long-Short Term Memory (LSTM) model was trained to predict one year of monthly temperatures based on historical conditions. Seasonal cycles, weather patterns, and relevant trends were able to be shown in the model. This project serves as a baseline for climatologists and other like-minded researchers interested in understanding and predicting the impacts of the Anthropocene on our climate.
-],
 authors: (
     (
       name: "Lesly Rodriguez",
@@ -38,6 +34,12 @@ authors: (
     )
   ),
 )
+
+= Introduction
+
+  Climate change is one of the most pressing global issues in 21st century. Rising of temperature, shifting of weather patterns and increasing of extreme events are no longer distant concerns but immediate threats to ecosystems and human well-being. In this project, we aim to conduct climate research by using historical temperature data and machine learning techniques to generate accurate temperature forecasts. Such predictions are not only crucial for advancing climate science but also have practical applications in areas such as energy sustainability, infrastructure planning, and public health. To allow comparability of temperature fluctuations across different regions, the dataset was reduced to focus on four states: California, Illinois, New York, and Texas, representing coastal and inland regions. Using this data, a Long-Short Term Memory (LSTM) model was trained to predict one year of monthly temperatures based on historical conditions. Seasonal cycles, weather patterns, and relevant trends were able to be shown in the model. This project serves as a baseline for climatologists and other like-minded researchers interested in understanding and predicting the impacts of the Anthropocene on our climate.
+
+  The dataset used for this project is titled "Average Monthly Temperature by US State," compiled by the National Centers for Environmental Information. The link for this dataset is: https://www.kaggle.com/datasets/justinrwong/average-monthly-temperature-by-us-state. It contains one CSV file that has average temperatures for 48 states (excluding Hawaii and Alaska) by month. Due to the extensive dates covered, starting from 1950 to 2022, the data allows for analysis of climate change within the United States. The temperature was measured in degrees Fahrenheit and the centroid latitude and longitude were also provided for each state. 
 
 = Exploratory Data Analysis 
 
